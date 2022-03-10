@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script2.js">  </script>
+</head>
+<body>
+    <input type="button" id="hw" value="Hello world" />
+</body>
+</html>
+
+<!-- script를 head 태그에 위치시키면
+오류가 발생하는데 그걸 해결하는 법.
+id(html태그의 input태그의 id얘기하는 것임)를 읽지 못하고 null값으로 뜸.그래서 addEventListener까지 가지 못한다.
+
+
+그러나 바디태그가 끝나기 전에, 해주는 게
+훨씬 효율적이고 좋다.. body안에 쓰자. 
+심지어 head에다가 쓰는 건 느림.. 랜더링이 지연 된다. -->
+
+<!-- window.onload~ 
+웹페이지가 모두 다 로드가 끝났을 때 함수를 실행하게 만듦-->
