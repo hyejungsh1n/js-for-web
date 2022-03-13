@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ul>
+<ol>
+    <li>HTML</li>
+    <li class="active">CSS</li>
+    <li>JavaScript</li>
+</ol>
+<script>
+    // querySelector은 하나만 지정. 그래서 첫번째 html만 바뀜.
+    var li = document.querySelector('li');
+    li.style.color = 'yellow';
+    var li = document.querySelector('.active');
+    li.style.color='blue'
+    // queryselectorall은 유사배열에 담아 리턴해줌.
+</script>
+</body>
+</html>
